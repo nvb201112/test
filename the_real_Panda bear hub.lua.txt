@@ -149,6 +149,7 @@ elseif placeId == 4442272183 or placeId == 79091703265657 then
 elseif placeId == 7449423635 or placeId == 100117331123089 then
     World3 = true
 else    
+
 end
 
 Sea = World1 or World2 or World3
