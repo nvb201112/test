@@ -2639,7 +2639,7 @@ local function performClick()
     getgenv().AutoClickShootSettings.LastClickTime = currentTime
 end
 
-local bearlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Myvkhuy/BearLibrary/Bearlib/V8.1.lua"))()
+local bearlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/nvb201112/ui/refs/heads/main/ui.lua"))()
 local Window = bearlib:MakeWindow({
     Title = "the_real_Panda Hub",
     SubTitle = "by the_real_Panda",
