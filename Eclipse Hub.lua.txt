@@ -37,7 +37,7 @@ if executor then
     then
         print("ok")
     else
-        game.Players.LocalPlayer:Kick("Please use Delta Exploit or PC use Volcano or a paid exploit!")
+        
     end
 end
 
