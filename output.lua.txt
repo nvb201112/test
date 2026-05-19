@@ -1,0 +1,58 @@
+---> https://discord.gg/eDtfRZge5x <---
+
+local _ = getgenv().Nousigi
+game.CoreGui:FindFirstChild("Night Mystic GUI")
+for k8, val8 in ipairs(game.CoreGui:GetChildren()) do
+    string.find(val8.Name, "LongHiHi Notification 🔔")
+    val8:Destroy()
+end
+getgenv().Nousigi = true
+game.Players.LocalPlayer.PlayerGui:FindFirstChild("TouchGui")
+getgenv().UIColor = {
+    ["Toggle Checked Color"] = Color3.fromRGB(200, 40, 40),
+    ["Page Selected Color"] = Color3.fromRGB(200, 40, 40),
+    ["Tween Animation 1 Speed"] = 0,
+    ["Text Color"] = Color3.fromRGB(235, 235, 230),
+    ["Title Text Color"] = Color3.fromRGB(255, 255, 255),
+    ["Toggle Border Color"] = Color3.fromRGB(70, 70, 70),
+    ["Background Image"] = "",
+    ["Dropdown Selected Color"] = Color3.fromRGB(200, 40, 40),
+    ["Toggle Desc Color"] = Color3.fromRGB(180, 180, 180),
+    ["Border Color"] = Color3.fromRGB(50, 50, 50),
+    ["Setting Icon Color"] = Color3.fromRGB(200, 200, 200),
+    ["Search Icon Color"] = Color3.fromRGB(200, 40, 40),
+    ["Search Icon Highlight Color"] = Color3.fromRGB(255, 60, 60),
+    ["Button Color"] = Color3.fromRGB(35, 35, 35),
+    ["Dropdown Selected Check Color"] = Color3.fromRGB(255, 255, 255),
+    ["Textbox Highlight Color"] = Color3.fromRGB(200, 40, 40),
+    ["Background 1 Transparency"] = 0.05,
+    ["GUI Text Color"] = Color3.fromRGB(235, 235, 230),
+    ["Dropdown Icon Color"] = Color3.fromRGB(200, 40, 40),
+    ["Section Underline Color"] = Color3.fromRGB(200, 40, 40),
+    ["Click Effect Color"] = Color3.fromRGB(200, 40, 40),
+    ["Section Text Color"] = Color3.fromRGB(255, 255, 255),
+    ["Text Stroke Transparency"] = 0.8,
+    ["Logo Image"] = "rbxassetid://104181747838868",
+    ["Tween Animation 3 Speed"] = 0,
+    ["Tween Animation 2 Speed"] = 0,
+    ["Slider Highlight Color"] = Color3.fromRGB(200, 40, 40),
+    ["Slider Line Color"] = Color3.fromRGB(45, 45, 45),
+    ["Box Highlight Color"] = Color3.fromRGB(200, 40, 40),
+    ["Label Color"] = Color3.fromRGB(28, 28, 28),
+    ["Background 2 Color"] = Color3.fromRGB(30, 30, 30),
+    ["Background 3 Color"] = Color3.fromRGB(25, 25, 25),
+    ["Background 1 Color"] = Color3.fromRGB(22, 22, 22),
+    ["Placeholder Text Color"] = Color3.fromRGB(100, 100, 100),
+    ["Background Main Color"] = Color3.fromRGB(15, 15, 15)
+}
+getgenv().AllControls = {}
+getgenv().UIToggled = false
+game:GetService("TweenService")
+game:GetService("UserInputService")
+game:GetService("RunService")
+local var82 = Instance.new("ScreenGui")
+var82.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+var82.Name = "Night Mystic GUI"
+var82.Enabled = false
+getgenv().ReadyForGuiLoaded = false
+error("[string \"luau.load(...)\"]:1: attempt to call a nil value")
